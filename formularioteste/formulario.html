@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/logofav.png" type="image/x-icon">
+    <title>RIALE teste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+    <form action="https://formsubmit.co/sheron_she@hotmail.com" 
+          method="POST"
+          class="form">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" required> 
+        <label for="phone">Telefone</label>
+        <input type="phone" name="phone" id="tel" required> 
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required>
+        <label for="message">Mensagem</label>
+        <textarea name="message" id="message" placeholder="Escreva aqui"required></textarea>
+       <input type="hidden" name="_captcha" value="false"/> <!--infomação do captcha ´robo´ -->
+        <input type="hidden" name="next" value="https://riale.000webhostapp.com/Obrigado.html">
+        <button type="submit">Enviar</button>
+   </form>
+</body>
+</html>
