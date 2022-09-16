@@ -3224,7 +3224,16 @@ textarea.form-control-lg {
   color: #000;
   background-color: #f9fafb;
   border-color: #f9fafb;
+
 }
+
+.btn-light2:hover {
+  color: #f4f4f8;
+  background-color:#2A3170;
+  border-color: #2A3170;
+}
+
+
 .btn-check:focus + .btn-light, .btn-light:focus {
   color: #000;
   background-color: #f9fafb;
