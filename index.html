@@ -249,7 +249,7 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6 text-center">
-                        <h2 class="mt-0">Vamos Entrar em Contato!</h2>
+                        <h2 class="mt-0">Vamos entrar em Contato!</h2>
                         <hr class="divider" />
                         <p class="text-muted mb-5">Pronto para iniciar sua cosultoria conosco?<br> Envie-nos uma mensagem e retornaremos o mais breve possível!</p>
                     </div>
@@ -267,24 +267,85 @@
                         <div class="container px-5 my-5">
                             <form id="contactForm" data-sb-form-api-token="88c615a9-5f7f-4aed-9daa-83d4f8e4114f">
                                 <div class="mb-3">
-                                    <label class="form-label" for="newField1">Nome Completo</label>
-                                    <input class="form-control" id="newField1" type="text" placeholder="Nome completo" data-sb-validations="required" />
-                                    <div class="invalid-feedback" data-sb-feedback="newField1:required">Nome completo é necessário.</div>
+                                    <label class="form-label" for="newField1">Razão Social</label>
+                                    <input class="form-control" id="newField1" type="text" placeholder="razão Social..." data-sb-validations="required" />
+                                    <div class="invalid-feedback" data-sb-feedback="newField1:required">Razão Social completa é necessária.</div>
                                 </div>
                                 <div class="mb-3">
-                                    <label class="form-label" for="newField2">Celular</label>
-                                    <input class="form-control" id="newField2" type="text" placeholder="Número de celular" data-sb-validations="required" />
-                                    <div class="invalid-feedback" data-sb-feedback="newField2:required">O numero de celular é necessário.</div>
+                                    <label class="form-label" for="newField2">CNPJ</label>
+                                    <input class="form-control" id="newField2" type="text" placeholder="CNPJ..." data-sb-validations="required" />
+                                    <div class="invalid-feedback" data-sb-feedback="newField2:required">O numero do CNPJ é necessário.</div>
                                 </div>
                                 <div class="mb-3">
-                                    <label class="form-label" for="emailAddress"><E-mail>E-mail</label>
-                                    <input class="form-control" id="emailAddress" type="email" placeholder="Endereço de e-mail" data-sb-validations="required,email" />
-                                    <div class="invalid-feedback" data-sb-feedback="emailAddress:required">O endereço de e-mail é necessário.</div>
-                                    <div class="invalid-feedback" data-sb-feedback="emailAddress:email">O e-mail de endereço de e-mail não é válido.</div>
+                                    <label class="form-label" for="newField2">Endereço da empresa</label>
+                                    <input class="form-control" id="newField2" type="text" placeholder="endereço da empresa..." data-sb-validations="required" />
+                                    <div class="invalid-feedback" data-sb-feedback="newField2:required">O endereço da empresa é necessário.</div>
                                 </div>
                                 <div class="mb-3">
-                                    <label class="form-label" for="newField5">Mensagem</label>
-                                    <textarea class="form-control" id="newField5" type="text" placeholder="Escreva sua mensagem aqui" style="height: 10rem;" data-sb-validations="required"></textarea>
+                                    <label class="form-label" for="newField2">Nome do responsável legal</label>
+                                    <input class="form-control" id="newField2" type="text" placeholder="nome do responsável legal..." data-sb-validations="required" />
+                                    <div class="invalid-feedback" data-sb-feedback="newField2:required">O nome do responsável legal é necessário.</div>
+                                </div>
+                                
+                                    <label class="form-label" for="newField2">Estado civil</label>
+                                    <input class="form-control" id="newField2" type="text" placeholder="estado civil..." data-sb-validations="required" />
+                                    <div class="invalid-feedback" data-sb-feedback="newField2:required">O nome estado civel é necessário.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="newField2">Profissão</label>
+                                    <input class="form-control" id="newField2" type="text" placeholder="profissão..." data-sb-validations="required" />
+                                    <div class="invalid-feedback" data-sb-feedback="newField2:required">A porfssão é necessário.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="newField2">RG</label>
+                                    <input class="form-control" id="newField2" type="text" placeholder="RG..." data-sb-validations="required" />
+                                    <div class="invalid-feedback" data-sb-feedback="newField2:required">o RG é necessário.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="newField2">CPF</label>
+                                    <input class="form-control" id="newField2" type="text" placeholder="CPF..." data-sb-validations="required" />
+                                    <div class="invalid-feedback" data-sb-feedback="newField2:required">o CPF é necessário.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="emailAddress"><E-mail>E-mail do responsável da empresa</label>
+                                    <input class="form-control" id="emailAddress" type="email" placeholder="endereço de e-mail" data-sb-validations="required,email" />
+                                    <div class="invalid-feedback" data-sb-feedback="emailAddress:required">O endereço de e-mail do responável é necessário.</div>
+                                    <div class="invalid-feedback" data-sb-feedback="emailAddress:email">O endereço de e-mail não é válido.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="newField2">Cicade</label>
+                                    <input class="form-control" id="newField2" type="text" placeholder="Cidade..." data-sb-validations="required" />
+                                    <div class="invalid-feedback" data-sb-feedback="newField2:required">O nome da cidade é necessário.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="newField2">CEP</label>
+                                    <input class="form-control" id="newField2" type="text" placeholder="CEP..." data-sb-validations="required" />
+                                    <div class="invalid-feedback" data-sb-feedback="newField2:required">O CEP é necessário.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="newField2">Número de telefone do responsável legal</label>
+                                    <input class="form-control" id="newField2" type="text" placeholder="número de telefone do responsável legal..." data-sb-validations="required" />
+                                    <div class="invalid-feedback" data-sb-feedback="newField2:required">O número de telefone do responsável legal é necessário.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="newField2">Operadora ou Reclamada (RÉ)</label>
+                                    <input class="form-control" id="newField2" type="text" placeholder="operadora ou reclamada (RÉ)..." data-sb-validations="required" />
+                                    <div class="invalid-feedback" data-sb-feedback="newField2:required">Operadora ou Reclamada é necessário.</div>
+                                <div class="mb-3">
+                                    <div class="mb-3">
+                                        <label class="form-label" for="emailAddress"><E-mail>E-mail do parceiro (Se houver)</label>
+                                        <input class="form-control" id="emailAddress" type="email " placeholder="e-mail do parceiro..." data-sb-validations="required,email" />
+                                        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">O endereço de e-mail é necessário.</div>
+                                        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Endereço de e-mail não é válido.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label" for="newField2">Valor de honorários combnado</label>
+                                        <input class="form-control" id="newField2" type="text" placeholder="valor de honorários combnado..." data-sb-validations="required" />
+                                        <div class="invalid-feedback" data-sb-feedback="newField2:required">Valor de honorários combnado é necessário.</div>
+                                    <div class="mb-3">
+
+                                    <label class="form-label" for="newField5">Resumo do caso</label>
+                                    <textarea class="form-control" id="newField5" type="text" placeholder="Descreva seu caso aqui..." style="height: 10rem;" data-sb-validations="required"></textarea>
                                     <div class="invalid-feedback" data-sb-feedback="newField5:required">Essa mensagem é necessária.</div>
                                 </div>
                                 <div class="d-none" id="submitSuccessMessage">
