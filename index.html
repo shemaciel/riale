@@ -288,7 +288,14 @@
                                 </div>
                                 
                                     <label class="form-label" for="newField2">Estado civil</label>
-                                    <input class="form-control" id="newField2" type="text" placeholder="estado civil..." data-sb-validations="required" />
+                                   <!--<input class="form-control" id="newField2" type="text" placeholder="estado civil..." data-sb-validations="required" />--> 
+                                    <fieldset>
+                                        <input type="radio" name="civil" id="estcvil"> <label for="eccasado"></label> casado (a)<br>
+                                        <input type="radio" name="civil" id="ecsolt"> <label for="ecsolt"></label> soltero (a)<br>
+                                        <input type="radio" name="civil" id="ecus"> <label for="ecus"></label> união estável <br>
+                                        <input type="radio" name="civil" id="ecdivorc"><label for="ecdivorc"></label> divorciado (a) <br>
+                                        <input type="radio" name="civil" id="ecviu"> <label for="ecviu"></label> viúvo (a)
+                                    </fieldset>
                                     <div class="invalid-feedback" data-sb-feedback="newField2:required">O nome estado civel é necessário.</div>
                                 </div>
                                 <div class="mb-3">
