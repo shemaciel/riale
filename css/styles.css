@@ -331,7 +331,7 @@ th {
 }
 
 label {
-  display: inline-block;
+  display:flexbox; /* formatação dos dados do formulário pra ficarem igual*/
 }
 
 button {
